@@ -3,7 +3,7 @@ https://www.npmjs.com/package/mkcert
 
 ## Criando um certificado raiz:
 ```bash
-    mkcert create-ca --organization "Unicorp Local" --country-code "BR" --state "SP" --locality "Sao Paulo" --validity "9000" --key "unicorp-local.key" --cert "unicorp-local.cert"
+    mkcert create-ca --organization "Unicorp Local" --country-code "BR" --state "SP" --locality "Sao Paulo" --validity "9000" --key "root.key" --cert "root.cert"
 ```
 
 ## Adicionar o certificado no root "Autoridades de Certificação Raiz Confiáveis" no windows.
